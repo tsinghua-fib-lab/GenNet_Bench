@@ -59,7 +59,7 @@ Usage of ./comm:
 To run the program, you need to provide the necessary command-line arguments based on your requirements. Here's an example command to run the program:
 
 ```
-./comm -config /path/to/config/config.yam -job job0 -listen localhost:51402
+./comm -config /path/to/config/config.yml -job job0 -listen localhost:51402
 ```
 
 Make sure to replace /path/to/config/ with the actual path to the configuration file(https://github.com/tsinghua-fib-lab/GenNet_Bench/releases/download/v1.0.0/config.yml).
