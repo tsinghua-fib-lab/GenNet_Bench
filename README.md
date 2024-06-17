@@ -2,7 +2,7 @@
 
 # Welcome to the GenNet Repository
 
-This is the implement of 
+This is the implement of NeurIPS'24 "GenNet: A Generative AI-Driven Mobile Network Simulator for Multi-Objective Network Optimization"
 
 # File Description
 
@@ -10,7 +10,7 @@ This repository includes the following key components:
 
 ## GenNet - Interactive Simulator
 
-GenNet is an interactive simulator designed to generate a Synthetic Data Ecosystem for Mobile Communication Networks. It allows researchers and developers to emulate mobile network scenarios and experiment with various parameters. In this release, you will find:
+GenNet is a generative AI-driven mobile network simulator. GenNet can create virtual replicas of mobile users, base stations, and wireless environments, utilizing generative AI methods to simulate the behaviors of these entities under various network settings with high accuracy. Several multi-objective optimization algorithms have been beenchmarked on GenNet, focusing on enhancing network coverage, throughput, and energy efficiency. In this release, you will find:
 
 - **the GenNet Executable (GenNet):** The core executable file for running the GenNet simulator. (https://github.com/tsinghua-fib-lab/GenNet_scientific_data/releases/download/v1.0.1/GenNet)
 
