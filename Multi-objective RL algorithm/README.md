@@ -4,7 +4,7 @@ Python reinforcement learning client for communication with the simulator.
 
 ## Usage
 
-### Initialization: (Using Dynamic Optimization Environment as an Example)
+### Initialization: 
 
 ```
 from pycomm.pycomm import CoverageEnv
@@ -43,12 +43,12 @@ env = CoverageEnv(
  - terminated: Indicates when the simulation is finished
  
 ```
-	async_coroutine_step, terminated, _ = await env.step(action, start, total, interval, is_output )
+	async_coroutine_step, terminated, _ = env.step(action, start, total, interval, is_output )
 ```
 
 ### Closing the Simulator: Terminate the simulator process when RL training is complete.
 ```
-	 await env.reset()
+        env.reset()
 ```
 
 # MORL Algorithm Interaction with Simulator
