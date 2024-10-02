@@ -2,7 +2,7 @@
 
 # Welcome to the GenNet Repository
 
-This is the implement of NeurIPS'24 "GenNet: A Generative AI-Driven Mobile Network Simulator for Multi-Objective Network Optimization"
+This is the implement of ICLR'25 "GenNet: A Generative AI-Driven Mobile Network Simulator for Multi-Objective Network Optimization with RL"
 
 # File Description
 
@@ -12,11 +12,10 @@ This repository includes the following key components:
 
 GenNet is a generative AI-driven mobile network simulator. GenNet can create virtual replicas of mobile users, base stations, and wireless environments, utilizing generative AI methods to simulate the behaviors of these entities under various network settings with high accuracy. Several multi-objective optimization algorithms have been beenchmarked on GenNet, focusing on enhancing network coverage, throughput, and energy efficiency. In this release, you will find:
 
-- **the GenNet Executable (comm):** The core executable file for running the GenNet simulator. (https://github.com/tsinghua-fib-lab/GenNet_Bench/releases/download/v1.0.0/comm)
-
+- **the GenNet Executable (comm):** The core executable file for running the GenNet simulator. 
 ## pycomm
 
-- **pycomm:** A Python reinforcement learning client (https://github.com/tsinghua-fib-lab/GenNet_Bench/releases/download/v1.0.0/pycomm.zip) that facilitates communication with the simulator, enabling dynamic interactions and experiments.
+- **pycomm:** A Python reinforcement learning client that facilitates communication with the simulator, enabling dynamic interactions and experiments.
 
 ## Milti-objective Reinforcement Learning Optimization Codes
 
@@ -62,7 +61,7 @@ To run the program, you need to provide the necessary command-line arguments bas
 ./comm -config /path/to/config/config.yml -job job0 -listen localhost:51402
 ```
 
-Make sure to replace /path/to/config/ with the actual path to the configuration file(https://github.com/tsinghua-fib-lab/GenNet_Bench/releases/download/v1.0.0/config.yml).
+Make sure to replace /path/to/config/ with the actual path to the configuration file.
 
 Note: The command assumes that the GenNet executable file is located in the current directory. If it's in a different directory, you' ll need to provide the correct path to the executable file.
 
