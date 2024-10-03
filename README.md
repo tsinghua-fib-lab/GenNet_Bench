@@ -79,7 +79,7 @@ To use GenNet, follow these steps:
 
 1. If you are using a Docker virtual machine, you need to install version 15.0 of the libprof library (Python module).
 
-2. The data files should be downloaded in advance and placed in the main directory. Data file address: https://cloud.tsinghua.edu.cn/f/7ae439a5ece044bea6ae/ .
+2. The data files should be downloaded in advance and placed in the main directory. Data file address: https://bit.ly/3Y5mhAO .
 
 3. The "pycomm" folder should be located in a subdirectory of the optimization algorithm code for interaction.
 
