@@ -2,7 +2,7 @@
 
 # Welcome to the GenNet Repository
 
-This is the implement of ICLR'25 "GenNet: A Generative AI-Driven Mobile Network Simulator for Multi-Objective Network Optimization with RL"
+This is the implement of KDD'25 "GenNet: A Generative AI-Driven Mobile Network Simulator for Multi-Objective Network Optimization with RL"
 
 # File Description
 
